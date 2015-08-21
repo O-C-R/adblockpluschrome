@@ -71,7 +71,7 @@ function onBeforeRequest(url, type, page, frame)
     isThirdParty(url, docDomain),
     key
   );
-
+  console.log(stringifyURL(url));
   console.log(filter);
   setTimeout(onBeforeRequestAsync, 0, url, type, page, filter);
 
