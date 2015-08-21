@@ -1,0 +1,4 @@
+_root = git:https://github.com/O-C-R/
+_self = buildtools/ensure_dependencies.py
+buildtools = buildtools hg:bdd544d595f2 git:f469dec
+adblockplusui = adblockplusui hg:75a50600e10a git:7ebacdc
