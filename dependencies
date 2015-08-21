@@ -1,4 +1,4 @@
-_root = git:https://github.com/O-C-R/
+_root = hg:https://hg.adblockplus.org/ git:https://github.com/O-C-R/
 _self = buildtools/ensure_dependencies.py
 buildtools = buildtools hg:3a314c32bde7 git:220fc28
 adblockplus = ssh://git@github.com:O-C-R/adblockplus.git git:master

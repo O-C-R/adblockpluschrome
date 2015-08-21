@@ -23,7 +23,7 @@ USAGE = """
 A dependencies file should look like this:
 
   # VCS-specific root URLs for the repositories
-  _root = git:https://github.com/O-C-R/
+  _root = hg:https://hg.adblockplus.org/ git:https://github.com/O-C-R/
   # File to update this script from (optional)
   _self = buildtools/ensure_dependencies.py
   # Check out elemhidehelper repository into extensions/elemhidehelper directory
