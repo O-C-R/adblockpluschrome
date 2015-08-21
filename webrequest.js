@@ -72,6 +72,7 @@ function onBeforeRequest(url, type, page, frame)
     key
   );
 
+  console.log(filter);
   setTimeout(onBeforeRequestAsync, 0, url, type, page, filter);
 
   return !(filter instanceof BlockingFilter);
